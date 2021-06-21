@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="monospace"
+            android:text="Registrasi"
+            android:textColor="@color/colorGreen"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/myttl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Tempat, tanggal lahir "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Alamat"
+            android:inputType="textEmailAddress"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/tinggibadan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Tinggi Badan"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/beratbadan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Berat Badan"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Riwayat Penyakit"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/diagnosis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Diagnosis"
+            android:textSize="20dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnselanjutnya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:text="Selanjutnya"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btnkembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:text="Kembali"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGreen" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/createnewac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Sudah Punya Akun?"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
